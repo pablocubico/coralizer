@@ -1,0 +1,16 @@
+{
+  "title": "Coral Enhancer",
+  "name": "coralenhancer",
+  "version": "0.0.1",
+  "description": "Universal Comments Enhancer",
+  "main": "index.js",
+  "author": "Pablo Cúbico",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
