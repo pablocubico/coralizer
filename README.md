@@ -1,2 +1,0 @@
-#CrowdedKarma
-Global Comments Reputation
