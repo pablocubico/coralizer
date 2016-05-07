@@ -1,16 +1,14 @@
-if (/facebook\.com\/plugins\/comments.php/.test(document.location.href)) {
+if (/disqus\.com\/embed\/comments/.test(document.location.href)) {
 
-  console.log("FACEBOOK thread found");
+  console.log("DISQUS thread found");
 
   var jqnc = jQuery.noConflict();
 
   window.coralizedInterval = setInterval("checkActors()", 500);
   function checkActors() {
 
-    //clearInterval(window.coralizedInterval);
-
-    jqnc("a.UFICommentActorName").css('color', 'pink');
-    jqnc("a.UFICommentActorName").off("mouseenter").on("mouseenter", function() {
+    jqnc("#posts .author a").css('color', 'pink !important');
+    jqnc("#posts .author a").off("mouseenter").on("mouseenter", function() {
 
       var name = jqnc(this).html(),
           link = jqnc(this).attr("href"),

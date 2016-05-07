@@ -1,0 +1,124 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="all">
+      body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: Lato;
+        font-weight: 300;
+      }
+      header {
+        background-color: #f77160;
+      }
+      header img {
+        max-width: 80%;
+        margin: 10%;
+      }
+      .options {
+      }
+      .options button {
+        margin: 0 !important;
+        border: none;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        display: block;
+        line-height: 40px;
+        width: 100%;
+        padding: 20px 30px;
+        font-size: 14pt;
+        text-align: left;
+        cursor: pointer;
+      }
+      #layout {
+        display: flex;
+        height: 100%;
+      }
+      #layout aside {
+        width: 300px;
+        background: #eee;
+        border-right: 1px solid #ccc;
+      }
+      section {
+        padding: 40px;
+        flex-grow: 1;
+      }
+      section td img {
+        width: 40px
+      }
+      h1 {
+        margin-top: 0;
+        font-weight: 300;
+      }
+      section table {
+        width: 100%;
+      }
+      section tr td {
+        padding: 15px 5px;
+        border-bottom: 1px solid #ccc;
+      }
+      section td.icon {
+        width: 40px;
+      }
+      .options a, .options button {
+        outline: none;
+        display: block;
+        text-decoration: none;
+        font-family: Lato;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+        border: none;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        display: block;
+        line-height: 40px;
+        padding: 20px 30px;
+        font-size: 14pt;
+        text-align: left;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="layout">
+      <aside>
+        <header>
+          <img src="coralwordmark.png">
+        </header>
+        <div class="options">
+          <button id="saved-users" type="button"><img src="user.svg" align="absmiddle"> Saved Users</button>
+          <a id="saved-comments" href="coralized-tab-comments.html" type="button"><img src="comment.svg" align="absmiddle"> Saved Comments</a>
+          <button id="tag-manager" type="button"><img src="tag.svg" align="absmiddle"> Tag Manager</button>
+        </div>
+      </aside>
+      <section>
+        <h1>Users tagged <strong>Veteran</strong></h1>
+        <table>
+          <tr>
+            <td class="icon"><img src="disqus.svg"></td><td>notmyproblem</td>
+          </tr>
+          <tr>
+            <td class="icon"><img src="disqus.svg"></td><td>Major Payne</td>
+          </tr>
+          <tr>
+            <td class="icon"><img src="facebook.svg"></td><td>Charles O'Hara</td>
+          </tr>
+          <tr>
+            <td class="icon"><img src="livefyre.png"></td><td>Tiger Uppercut</td>
+          </tr>
+          <tr>
+            <td class="icon"><img src="livefyre.png"></td><td>justauser</td>
+          </tr>
+          <tr>
+            <td class="icon"><img src="facebook.svg"></td><td>Paul Atreides</td>
+          </tr>
+          <tr>
+            <td class="icon"><img src="disqus.svg"></td><td>hotsauce</td>
+          </tr>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
